@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Prescriptions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito+Sans:opsz@6..12&family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="doctor.css" rel="stylesheet">
+    
+</head>
+<body>
+
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo">
+        <div class="logo-img">
+            <h1>MedTech</h1>
+        </div>
+    </div>
+
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+
+     
+
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>        
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </div>
+    </ul>
+  </nav>
+    <div class="company-name">
+      <h1>Welcome to MedTech</h1>
+    </div>
+
+    <div class="cards-container">
+        <div class="cards patients-card" style="width: 18rem;">
+            <img class="card-img-top" src="https://www.verywellhealth.com/thmb/ul-tLFHVGSFP-kR3DOR-cV9m0kU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/171631860-56aae7f53df78cf772b4a4cb.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Patients treated</h5>
+              <p class="card-text">Number of patients treated last week</p>
+              <h2 class="card-info">31</h2>
+            </div>
+        </div>
+
+        <div class="cards records-card" style="width: 18rem;">
+          <img class="card-img-top" src="https://editor.analyticsvidhya.com/uploads/481921111.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Records</h5>
+            <p class="card-text">Check all records saved with us</p>
+            <a href="records.html" class="btn-rec btn-primary">Search records</a>
+          </div>
+        </div>
+
+        <div class="quote">
+          <h1>“As a caregiver, you see selfless acts everyday.”</h1>
+        </div>
+
+          
+    </div>
+
+    <div class="cards-container2">
+      <div class="cards appointments-card" style="width: 18rem;">
+        <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title title-app">Pending appointments</h5>
+          <p class="card-text">Check pending appointments</p>
+          <a href="Appointments.html" class="btn-app btn-primary">Check</a>
+        </div>
+      </div>
+
+      <div class="cards prescriptions-card" style="width: 18rem;">
+        <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEr66_oicc5npSzaiqrTj9wUR0xnhq2O5Bg&usqp=CAU" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title title-app">Prescriptions</h5>
+          <p class="card-text text-pre">Search available prescriptions</p>
+          <a href="Prescriptions.html" class="btn-pre btn-primary">Check</a>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

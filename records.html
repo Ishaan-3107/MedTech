@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document Upload Form</title>
+    <link href="records.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">
+            <div class="logo-img">
+                <h1>MedTech</h1>
+            </div>
+        </div>
+    
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+         
+    
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+    
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>        
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </div>
+        </ul>
+      </nav>
+    <div class="container">
+        <h1>Upload Your Documents</h1>
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label for="file">Choose a file:</label>
+            <input type="file" name="file" id="file" accept=".pdf, .doc, .docx">
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+</body>
+</html>

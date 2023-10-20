@@ -1,0 +1,300 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: -10px -10px 0 -10px;
+    padding: 15px;
+    background-color: #000000;
+    color: #fff;
+    position: sticky;
+    overflow: hidden;
+  }
+  
+  .nav-links {
+    list-style: none;
+    width: 80%;
+    display: flex;
+    justify-content: right;
+  }
+
+  .nav-links a {
+    color: #fff;
+  }
+  
+  .logo-img img{
+    height: 80px;
+    width: 80px;
+    margin: 10px 20px 0 0;
+  }
+  
+  .logo-name {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .logo-desc {
+    color: red;
+    display: block;
+  }
+  
+  .logo {
+    font-size: 22px;
+    
+  }
+  
+  .menu {
+    display: flex;
+    font-size: 18px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .menu a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .menu li:hover {
+    /* background-color: #4c9e9e; */
+    /* font-size: 18.5px; */
+    border-radius: 5px;
+    height: 26px;
+    background-color: #007bff;
+    transition: 0.25s ease;
+    color: white;
+  }
+  
+  .menu li {
+    padding: 2px 15px;
+  }
+  
+  
+  .services {
+    position: relative; 
+  }
+  
+  .dropdown {
+    background-color: rgb(226, 241, 56);
+    padding: 1em 0;
+    position: absolute; 
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+  }
+  
+  .dropdown li + li {
+    margin-top: 10px;
+  }
+  
+  .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+  }
+  
+  
+  .services:hover .dropdown {
+    display: block;
+  }
+  .mySlides {display:none;}s
+  .brand-name {
+    color: red;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+/* Apply basic styles for responsiveness */
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.container1 p{
+    font-size: 20px;
+    line-height: 5px;
+}
+
+header {
+    background-color: #032f41;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#text {
+    display: block;
+    text-align: left;
+    justify-content: left;
+    margin-left: 0px;
+}
+
+
+#box {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 2px;
+    height: 570px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 42px;
+}
+
+.logo img {
+    height: 70px;
+    width: 70px;
+}
+#box h1{
+    margin-left: 40px;
+    background-color: transparent;
+    text-align: left;
+    text-shadow: white;
+    text-decoration: underline;
+}
+
+#box h3 {
+    /* font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+    text-align: left;
+    margin-left: 30px;
+}
+#box::before {
+    content: "";
+    background-image: url("C:\Users\Ishaan\Downloads\doctor bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 28.79;
+}
+#container1{
+    height: 280px;
+    width: 300px;
+    /* border: 2px solid black; */
+    margin: 42px 34px;
+    text-align: center;
+    justify-content: center;
+    margin: 22px 22px;
+   
+}
+#container1 p{
+    display: flexbox;
+    flex-direction: column;
+    margin: 26px 6px 12px 6px ;
+    padding: 16px 6px 12px 6px;
+    /* border: 2px solid black; */
+    color: rgb(12, 12, 12);
+    /* color: #032f41; */
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+}
+#services {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#services .box1 {
+    /* border: 2px solid black; */
+    margin: 12px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+#services .box1 img {
+    transition: all;
+    height: 175px;
+    width: 326px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+    border: 2px solid black;
+    transition: all 0.2s ease-in-out 0s;
+}
+#services .box1 img:hover{
+    background-color: rgb(164, 235, 240);
+    border-radius: 10px;
+    font-family: cursive;
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.h-primary {
+    font-size: 3.7rem;
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.h-secondary {
+    font-size: 1.7rem;
+    padding: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.h-secondary-centre {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    padding: 3px;
+    margin-top: 10px;
+}
+.text{
+    color: rgb(0, 0, 0);
+}
+
+.card-btn {
+    background-color: #007bff;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 20px;
+    transition: all 0.2s ease;
+}
+
+.card-btn:hover {
+    background-color: #0056b2;
+    cursor: pointer;
+    transform: scale(1.1);
+}
